@@ -29,7 +29,7 @@ export default function MessageBubble({ message }) {
           <Bot size={20} />
         </div>
       )}
-      <div className={`max-w-[85%] ${isUser ? "order-1" : ""}`}>
+      <div className="max-w-[85%]">
         <div
           className={`rounded-2xl px-4 py-3 text-sm shadow-sm ${
             isUser
