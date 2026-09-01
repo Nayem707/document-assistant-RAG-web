@@ -33,6 +33,19 @@ body {
 .markdown-content a {
   @apply text-brand-600 underline;
 }
+.markdown-content table {
+  @apply my-3 w-full border-collapse overflow-hidden rounded-lg border border-slate-200 text-left text-sm;
+}
+.markdown-content thead {
+  @apply bg-slate-100;
+}
+.markdown-content th,
+.markdown-content td {
+  @apply border border-slate-200 px-3 py-2 align-top;
+}
+.markdown-content th {
+  @apply font-semibold text-slate-700;
+}
 .markdown-content h1,
 .markdown-content h2,
 .markdown-content h3 {
