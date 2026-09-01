@@ -26,7 +26,7 @@ export default function MessageBubble({ message }) {
     <div className={`flex gap-3 ${isUser ? "justify-end" : "justify-start"}`}>
       {!isUser && (
         <div className="mt-1 flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-brand-100 text-brand-700">
-          <Bot size={16} />
+          <Bot size={20} />
         </div>
       )}
       <div className={`max-w-[85%] ${isUser ? "order-1" : ""}`}>
@@ -74,7 +74,7 @@ export default function MessageBubble({ message }) {
       </div>
       {isUser && (
         <div className="mt-1 flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-slate-200 text-slate-700">
-          <User size={16} />
+          <User size={20} />
         </div>
       )}
     </div>

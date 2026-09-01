@@ -34,7 +34,7 @@ export default function ChatWindow() {
             <option value="">New conversation</option>
             {conversations.map((c) => (
               <option key={c.id} value={c.id}>
-                {c.title} · {formatDate(c.updatedAt)}
+                {formatDate(c.updatedAt)} - {c.title}
               </option>
             ))}
           </select>

@@ -39,7 +39,7 @@ export default function ChatInput() {
 
   return (
     <div className="border-t border-slate-200 bg-white p-3 sm:p-4">
-      <div className="mx-auto flex max-w-3xl items-end gap-2">
+      <div className="mx-auto flex max-w-4xl items-end gap-2">
         <textarea
           rows={1}
           value={value}

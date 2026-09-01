@@ -15,7 +15,7 @@ export default function MessageList() {
 
   return (
     <div ref={scrollerRef} className="flex-1 overflow-y-auto scroll-fade">
-      <div className="mx-auto max-w-3xl space-y-6 p-4 sm:p-6">
+      <div className="mx-auto max-w-4xl space-y-6 p-4 sm:py-4 lg:py-8">
         {messages.length === 0 && (
           <div className="mt-10 flex flex-col items-center justify-center text-center text-slate-500">
             <div className="mb-3 rounded-full bg-brand-50 p-4 text-brand-600">
